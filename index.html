@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>The Union Brief</title>
   <style>
+    /* Elegant, newspaper-inspired typography */
     :root {
       --headline-font: 'Baskerville', 'Georgia', serif;
       --body-font: 'Garamond', 'Georgia', serif;
@@ -35,13 +36,13 @@
       border-bottom: 1px solid #eee;
     }
 
-    /* Logo styling */
-    .logo {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 0 auto 1rem;
-      border-radius: 4px;
+    header h1 {
+      font-family: var(--headline-font);
+      font-size: 2.8rem;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+      color: #000;
     }
 
     header p {
@@ -126,16 +127,18 @@
       body {
         padding: 1.2rem;
       }
-      .logo {
-        max-width: 90%;
+      header h1 {
+        font-size: 2.2rem;
+      }
+      .top-story h2 {
+        font-size: 1.5rem;
       }
     }
   </style>
 </head>
 <body>
   <header>
-    <!-- Replace this with your actual image filename -->
-    <img src="logo.png" alt="The Union Brief" class="logo">
+    <h1>The Union Brief</h1>
     <p>Clear. Independent. For the Republic.</p>
   </header>
 
@@ -175,8 +178,8 @@
   </main>
 
   <footer>
-    <p>© 2025 The Union Brief. Independent. Honest. Reliable.</p>
-    <p><a href="mailto:unionbrief@outlook.com">Send a tip</a> • <a href="/about">About</a></p>
+    <p>© 2025 The Union Brief. Independent. Not owned by corporations.</p>
+    <p><a href="mailto:tips@unionbrief.example">Send a tip</a> • <a href="/about">About</a></p>
   </footer>
 </body>
 </html>
