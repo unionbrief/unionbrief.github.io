@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Union Brief</title>
+  <style>
+    :root {
+      --headline-font: 'Baskerville', 'Georgia', serif;
+      --body-font: 'Garamond', 'Georgia', serif;
+      --sans-serif: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--body-font);
+      line-height: 1.7;
+      color: #222;
+      background: #fdfdfd;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      letter-spacing: 0.2px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    /* Logo styling */
+    .logo {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
+      border-radius: 4px;
+    }
+
+    header p {
+      color: #555;
+      font-style: italic;
+      margin-top: 0.4rem;
+      font-size: 1.1rem;
+    }
+
+    .top-story {
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .top-story h2 {
+      font-family: var(--headline-font);
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 0.6rem;
+      line-height: 1.2;
+      color: #000;
+    }
+
+    .byline {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      font-family: var(--sans-serif);
+      letter-spacing: 0.5px;
+    }
+
+    .top-story p {
+      margin-bottom: 1rem;
+    }
+
+    .stories-grid {
+      display: grid;
+      gap: 2rem;
+    }
+
+    .stories-grid h3 {
+      font-family: var(--headline-font);
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      line-height: 1.3;
+      color: #000;
+    }
+
+    .stories-grid p {
+      color: #333;
+      margin-bottom: 0.6rem;
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #eee;
+      color: #777;
+      font-size: 0.9rem;
+      text-align: center;
+      font-family: var(--sans-serif);
+    }
+
+    footer a {
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1.2rem;
+      }
+      .logo {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Replace this with your actual image filename -->
+    <img src="logo.png" alt="The Union Brief" class="logo">
+    <p>Clear. Independent. For the Republic.</p>
+  </header>
+
+  <main>
+    <article class="top-story">
+      <h2>Massive Fire Engulfs Downtown Austin Building Near St. David’s Hospital</h2>
+      <p class="byline">By Alex Rivera • May 28, 2025</p>
+      <p>Flames tore through a commercial high-rise early Tuesday morning just blocks from St. David’s Medical Center, sending thick smoke over central Austin. Firefighters battled the blaze for hours as nearby roads were shut down...</p>
+      <a href="#read-more">Read more →</a>
+    </article>
+
+    <div class="stories-grid">
+      <article>
+        <h3>Federal Agents Ambushed in Chicago’s Brighton Park</h3>
+        <p>Law enforcement surrounded by vehicles; one armed suspect shot after opening fire.</p>
+        <a href="#read-more">Read more →</a>
+      </article>
+
+      <article>
+        <h3>AI Energy Demand Could Strain U.S. Power Grid by 2030</h3>
+        <p>New report warns data centers may outpace clean energy growth.</p>
+        <a href="#read-more">Read more →</a>
+      </article>
+
+      <article>
+        <h3>Two Teens Killed in NYC Subway Surfing Incident</h3>
+        <p>MTA calls for urgent action after fatal accident in Brooklyn.</p>
+        <a href="#read-more">Read more →</a>
+      </article>
+
+      <article>
+        <h3>Government Shutdown Threatens Federal Paychecks</h3>
+        <p>750,000 workers at risk as Trump pushes for permanent layoffs.</p>
+        <a href="#read-more">Read more →</a>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 The Union Brief. Independent. Honest. Reliable.</p>
+    <p><a href="mailto:unionbrief@outlook.com">Send a tip</a> • <a href="/about">About</a></p>
+  </footer>
+</body>
+</html>
